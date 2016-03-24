@@ -16,16 +16,38 @@ img {
 }
 
 h1 {
-    font-family: fantasy;
+    font-family: 'Aldrich', sans-serif;
     text-align: center;
     font-size: 3em;
 }
 
 form {
     padding: 5em;
-    font-family: monospace;
-
+    font-family: 'Aldrich', sans-serif;
+    background-color: #eee;
 }
+
+
+input {
+    display: flex;
+}
+
+button {
+    margin-top: 2em;
+    display: flex;
+}
+
+a {
+    display: flex;
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 
 
 
